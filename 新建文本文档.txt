@@ -1,0 +1,16 @@
+虽然别人是用来写一写配置须知，但是我是新手，又不是很懂，所以就来写写这个小项目积累的经验咯！
+如果有使用其他库的话
+    <script src="js/jquery.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="js/app.js" type="text/javascript"></script>//这句话必须放在最后面，因为如果放在前面后面的库没有加载出来就会出现类似于($ is not defined)
+  的错误，另外的一个解决方法就是使用window.onload=function(){//code here}意思是等全部加载完再执行脚本
+2、跨域请求时一定要注意是返回格式是'JSON'还是‘JSONP’
+3、第三个要注意的就是动态进行Dom操作时一定要注意哪些引号等等
+4、就是<span>是行内元素，要使其水平居中时一定要有display:block;
+还有的就是换了一个github号然而上传代码只能使用SSH公钥验证，http总是报错，而且提示与旧账户关联（你说我能怎么办，我也很绝望啊），今晚回去查查
+加油
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    人生不止于代码
+    
