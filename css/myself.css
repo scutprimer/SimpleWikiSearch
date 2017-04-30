@@ -1,0 +1,61 @@
+@charset 'UTF-8';
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance:searchfield-cancel-button;
+}
+input[type="search"]::-webkit-input-placeholder { /* WebKit browsers */ 
+font-size:10px;
+} 
+.celebration{
+    width:430px;
+    margin:20px auto;
+    color:white;
+    }
+
+body {
+    background-color: #008299;
+    background-size: cover;
+}
+h1{
+    width:350px;
+    margin:0 auto;
+    margin-top:100px;
+}
+.btn-primary {
+     width:150px;
+    margin:0 auto;
+    margin-top:50px;
+    display:block;
+}
+input[type=search] {
+    width: 10%;
+    border-radius: 4px;
+    font-size: 20px;
+}
+form {
+    width: 17%;
+    margin:20px auto;
+    border:0.5px;
+}
+.searchresult{
+    background-color: rgb(211,211,211);
+    width:60%;
+    margin:20px auto;
+    border-radius: 5px;
+    padding:10px;
+
+}
+.searchtitle{
+    font-size:30px;
+}
+.searchtitle:link{
+    color:red;
+}
+.searchtitle:visited{
+    color:green;
+}
+.searchtitle:hover{
+    font-size: 50px;
+}
+.resultanswer{
+    font-size:15px;
+}
